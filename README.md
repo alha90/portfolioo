@@ -1,2 +1,3 @@
-## portfolio
-first portfolio using bootstrap studio
+# portfolioo
+Simple personal portfolio
+# portfolio
