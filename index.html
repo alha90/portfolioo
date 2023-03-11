@@ -1,87 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
-  </head>
 
-  <body>
-    <header>
-      <div class="mylogo">
-        <div class="logo">
-          <a href="/"><img src="logo.jpg" alt="" /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <header>
+    <div class="mylogo">
+      <div class="logo">
+        <a href="/"><img src="logo.jpg" alt="" /></a>
+      </div>
+      <span class="namelogo"><a class="HuHu" href="/">HuHu</a></span>
+    </div>
+    <div class="nav">
+      <div class="menuu">
+        <a href="#about">About us</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+  <div class="content">
+    <div id="about">
+      <p>
+        Hello; I'm <em><b>Huhu;</b></em> As a full-stack developer, I am
+        passionate about creating efficient and elegant software solutions
+        that meet the needs of my clients. With a strong background in both
+        front-end and back-end development, I am able to work seamlessly
+        across the entire development stack to deliver comprehensive
+        solutions.
+      </p>
+    </div>
+    <div id="projects">
+      <div>
+        <div class="projstitle">
+          <h1>Here's my projects</h1>
         </div>
-        <span class="namelogo"><a class="HuHu" href="/">HuHu</a></span>
-      </div>
-      <div class="nav">
-        <div class="menuu">
-          <a href="#about">About us</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <div class="hamburger"><span></span><span></span><span></span></div>
-      </div>
-    </header>
-    <div class="content">
-      <div id="about">
-        <p>
-          Hello; I'm <em><b>Huhu;</b></em> As a full-stack developer, I am
-          passionate about creating efficient and elegant software solutions
-          that meet the needs of my clients. With a strong background in both
-          front-end and back-end development, I am able to work seamlessly
-          across the entire development stack to deliver comprehensive
-          solutions.
-        </p>
-      </div>
-      <div id="projects">
-        <div>
-          <div class="projstitle">
-            <h1>Here's my projects</h1>
-          </div>
+        <div class="myallprojects">
+          <a href="/">
+            <div class="previous">
+              <code> < </code>
+            </div>
+          </a>
           <div class="projs"></div>
         </div>
-      </div>
-      <div id="contact">
-        <div class="contactmehere">
-          <h1>
-            Contact me here
-            <em style="font-size: 18pt; font-weight: bold; color: whitesmoke"
-              >-></em
-            >
-          </h1>
-        </div>
-        <div class="contactme">
-          <form action="">
-            <input type="text" class="name" placeholder="Your name " /><br />
-            <input type="email" class="email" placeholder="Your Email" /><br />
-            <input
-              type="text"
-              name="message"
-              id="message"
-              placeholder="Your message"
-              style="height: 100px"
-            /><br />
-            <input
-              type="button"
-              value="submit"
-              id="button"
-              style="width: 100px"
-            />
-          </form>
-        </div>
+        <a href="/">
+          <div class="next">
+            <code> > </code>
+          </div>
+        </a>
       </div>
     </div>
-    <footer>
-      <span class="footer"
-        >2023 &copy
-        <em
-          ><a style="text-decoration: none; color: black" href="/">HuHu</a></em
-        ></span
-      >
-    </footer>
-    <script src="main.js"></script>
-  </body>
+    <div id="contact">
+      <div class="contactmehere">
+        <h1>
+          Contact me here
+          <em style="font-size: 18pt; font-weight: bold; color: whitesmoke">-></em>
+        </h1>
+      </div>
+      <div class="contactme">
+        <form action="">
+          <input type="text" class="name" placeholder="Your name " /><br />
+          <input type="email" class="email" placeholder="Your Email" /><br />
+          <input type="text" name="message" id="message" placeholder="Your message" style="height: 100px" /><br />
+          <input type="button" value="submit" id="button" style="width: 100px" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <span class="footer">2023 &copy
+      <em><a style="text-decoration: none; color: black" href="/">HuHu</a></em></span>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
 </html>
